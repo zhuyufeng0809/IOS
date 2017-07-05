@@ -1,0 +1,105 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking-RACExtensions (0.1.8):
+    - AFNetworking (~> 2.5.3)
+    - ReactiveCocoa (~> 2.0)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AutoScrollLabel (0.4.3)
+  - Base64nl (1.2)
+  - MarqueeLabel (3.1.0):
+    - MarqueeLabel/ObjC (= 3.1.0)
+  - MarqueeLabel/ObjC (3.1.0)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SBJson (3.2)
+  - UIColor-Crayola (1.0)
+  - UIColor-Pantone (1.0)
+
+DEPENDENCIES:
+  - AFDownloadRequestOperation (~> 2.0)
+  - AFNetworking (~> 2.2)
+  - AFNetworking-RACExtensions (~> 0.1)
+  - AutoScrollLabel (~> 0.2)
+  - Base64nl (~> 1.2)
+  - MarqueeLabel
+  - Masonry (~> 0.5)
+  - MBProgressHUD (~> 0.8)
+  - MRProgress (~> 0.7)
+  - SBJson (< 4.0)
+  - UIColor-Crayola (~> 1.0)
+  - UIColor-Pantone (~> 1.0)
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking-RACExtensions: a043c6b492fa892395ceb9d20bc4c94e96e08a57
+  AutoScrollLabel: bee53a1d4532569b49cbecaf9b80ca003bed3767
+  Base64nl: a497bdcd1c01ea793d36b399016195a8713c0e95
+  MarqueeLabel: 061d04687ee5485ac035b45c8e292274a87afe01
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SBJson: 9626892a7dc75ccaa2aad207ed4e4f73d6762846
+  UIColor-Crayola: 0d2f68032cbea6ba4669b360ffb641d203b41a0d
+  UIColor-Pantone: b6e5ab4c032f704f75453cfc0e8a07f68624cff5
+
+PODFILE CHECKSUM: 19b8740f23a47e29aabbcf78de29c495bd68f739
+
+COCOAPODS: 1.2.1

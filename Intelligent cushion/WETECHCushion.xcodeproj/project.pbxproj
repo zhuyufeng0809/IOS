@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238A803D1FD3ACAFBE238AD8 /* libPods-WETECHCushion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45D61C131C34F4D730483BB /* libPods-WETECHCushion.a */; };
+		515186691CDC243D005F2D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186681CDC243D005F2D01 /* main.m */; };
+		5151866C1CDC243D005F2D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5151866B1CDC243D005F2D01 /* AppDelegate.m */; };
+		515186851CDC243E005F2D01 /* WETECHCushionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186841CDC243E005F2D01 /* WETECHCushionTests.m */; };
+		515186901CDC243E005F2D01 /* WETECHCushionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5151868F1CDC243E005F2D01 /* WETECHCushionUITests.m */; };
+		515186B01CDE150B005F2D01 /* WTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186AF1CDE150B005F2D01 /* WTTabBarController.m */; };
+		515186B41CDE2286005F2D01 /* WTPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186B31CDE2286005F2D01 /* WTPanelViewController.m */; };
+		515186B81CDE22F2005F2D01 /* PanelTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186B71CDE22F2005F2D01 /* PanelTopView.m */; };
+		515186BB1CDE2302005F2D01 /* PanelMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186BA1CDE2302005F2D01 /* PanelMiddleView.m */; };
+		515186BE1CDE2310005F2D01 /* PanelBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 515186BD1CDE2310005F2D01 /* PanelBottomView.m */; };
+		51C7E6161CE029BB00FDBE19 /* BleDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E6111CE029BB00FDBE19 /* BleDiscovery.m */; };
+		51C7E6171CE029BB00FDBE19 /* BlePassord.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E6131CE029BB00FDBE19 /* BlePassord.m */; };
+		51C7E6181CE029BB00FDBE19 /* BleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E6151CE029BB00FDBE19 /* BleService.m */; };
+		51C7E61D1CE0334900FDBE19 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 51C7E61A1CE0334900FDBE19 /* ProgressHUD.bundle */; };
+		51C7E61E1CE0334900FDBE19 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E61C1CE0334900FDBE19 /* ProgressHUD.m */; };
+		51C7E6231CE0C3D100FDBE19 /* NSString+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C7E6221CE0C3D100FDBE19 /* NSString+hex.m */; };
+		F2539B6A1D0BA7B8006BD0FB /* SettingBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B631D0BA7B8006BD0FB /* SettingBottomView.m */; };
+		F2539B6B1D0BA7B8006BD0FB /* SettingTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B651D0BA7B8006BD0FB /* SettingTitleView.m */; };
+		F2539B6C1D0BA7B8006BD0FB /* SettingTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B671D0BA7B8006BD0FB /* SettingTopView.m */; };
+		F2539B6D1D0BA7B8006BD0FB /* WTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B691D0BA7B8006BD0FB /* WTSettingsViewController.m */; };
+		F2539B6F1D0BE982006BD0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2539B6E1D0BE982006BD0FB /* Assets.xcassets */; };
+		F2539B7A1D0C0B39006BD0FB /* TColorfulTabBar+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B751D0C0B39006BD0FB /* TColorfulTabBar+Configuration.m */; };
+		F2539B7B1D0C0B39006BD0FB /* TColorfulTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B771D0C0B39006BD0FB /* TColorfulTabBar.m */; };
+		F2539B7C1D0C0B39006BD0FB /* UIColor+STColorInit.m in Sources */ = {isa = PBXBuildFile; fileRef = F2539B791D0C0B39006BD0FB /* UIColor+STColorInit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515186811CDC243E005F2D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5151865C1CDC243D005F2D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515186631CDC243D005F2D01;
+			remoteInfo = WETECHCushion;
+		};
+		5151868C1CDC243E005F2D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5151865C1CDC243D005F2D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515186631CDC243D005F2D01;
+			remoteInfo = WETECHCushion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C73E3DF25FDEA8551F7123B /* Pods-WETECHCushion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WETECHCushion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WETECHCushion/Pods-WETECHCushion.debug.xcconfig"; sourceTree = "<group>"; };
+		46EF3E79CF363125ED96533D /* Pods-WETECHCushion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WETECHCushion.release.xcconfig"; path = "Pods/Target Support Files/Pods-WETECHCushion/Pods-WETECHCushion.release.xcconfig"; sourceTree = "<group>"; };
+		515186641CDC243D005F2D01 /* WETECHCushion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WETECHCushion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515186681CDC243D005F2D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5151866A1CDC243D005F2D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5151866B1CDC243D005F2D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5151867B1CDC243D005F2D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515186801CDC243E005F2D01 /* WETECHCushionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WETECHCushionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515186841CDC243E005F2D01 /* WETECHCushionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WETECHCushionTests.m; sourceTree = "<group>"; };
+		515186861CDC243E005F2D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5151868B1CDC243E005F2D01 /* WETECHCushionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WETECHCushionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5151868F1CDC243E005F2D01 /* WETECHCushionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WETECHCushionUITests.m; sourceTree = "<group>"; };
+		515186911CDC243E005F2D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515186AE1CDE150B005F2D01 /* WTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTabBarController.h; sourceTree = "<group>"; };
+		515186AF1CDE150B005F2D01 /* WTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTabBarController.m; sourceTree = "<group>"; };
+		515186B21CDE2286005F2D01 /* WTPanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTPanelViewController.h; sourceTree = "<group>"; };
+		515186B31CDE2286005F2D01 /* WTPanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTPanelViewController.m; sourceTree = "<group>"; };
+		515186B61CDE22F2005F2D01 /* PanelTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelTopView.h; sourceTree = "<group>"; };
+		515186B71CDE22F2005F2D01 /* PanelTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelTopView.m; sourceTree = "<group>"; };
+		515186B91CDE2302005F2D01 /* PanelMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelMiddleView.h; sourceTree = "<group>"; };
+		515186BA1CDE2302005F2D01 /* PanelMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelMiddleView.m; sourceTree = "<group>"; };
+		515186BC1CDE2310005F2D01 /* PanelBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelBottomView.h; sourceTree = "<group>"; };
+		515186BD1CDE2310005F2D01 /* PanelBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelBottomView.m; sourceTree = "<group>"; };
+		515186C01CDEDA06005F2D01 /* MacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		515186C11CDEDB97005F2D01 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		51C7E6101CE029BB00FDBE19 /* BleDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleDiscovery.h; sourceTree = "<group>"; };
+		51C7E6111CE029BB00FDBE19 /* BleDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleDiscovery.m; sourceTree = "<group>"; };
+		51C7E6121CE029BB00FDBE19 /* BlePassord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlePassord.h; sourceTree = "<group>"; };
+		51C7E6131CE029BB00FDBE19 /* BlePassord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlePassord.m; sourceTree = "<group>"; };
+		51C7E6141CE029BB00FDBE19 /* BleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleService.h; sourceTree = "<group>"; };
+		51C7E6151CE029BB00FDBE19 /* BleService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleService.m; sourceTree = "<group>"; };
+		51C7E61A1CE0334900FDBE19 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		51C7E61B1CE0334900FDBE19 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		51C7E61C1CE0334900FDBE19 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		51C7E61F1CE0343D00FDBE19 /* CRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCommon.h; sourceTree = "<group>"; };
+		51C7E6211CE0C3D100FDBE19 /* NSString+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hex.h"; sourceTree = "<group>"; };
+		51C7E6221CE0C3D100FDBE19 /* NSString+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hex.m"; sourceTree = "<group>"; };
+		C45D61C131C34F4D730483BB /* libPods-WETECHCushion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WETECHCushion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2539B621D0BA7B8006BD0FB /* SettingBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingBottomView.h; sourceTree = "<group>"; };
+		F2539B631D0BA7B8006BD0FB /* SettingBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingBottomView.m; sourceTree = "<group>"; };
+		F2539B641D0BA7B8006BD0FB /* SettingTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTitleView.h; sourceTree = "<group>"; };
+		F2539B651D0BA7B8006BD0FB /* SettingTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTitleView.m; sourceTree = "<group>"; };
+		F2539B661D0BA7B8006BD0FB /* SettingTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTopView.h; sourceTree = "<group>"; };
+		F2539B671D0BA7B8006BD0FB /* SettingTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTopView.m; sourceTree = "<group>"; };
+		F2539B681D0BA7B8006BD0FB /* WTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTSettingsViewController.h; sourceTree = "<group>"; };
+		F2539B691D0BA7B8006BD0FB /* WTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTSettingsViewController.m; sourceTree = "<group>"; };
+		F2539B6E1D0BE982006BD0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2539B741D0C0B39006BD0FB /* TColorfulTabBar+Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TColorfulTabBar+Configuration.h"; sourceTree = "<group>"; };
+		F2539B751D0C0B39006BD0FB /* TColorfulTabBar+Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TColorfulTabBar+Configuration.m"; sourceTree = "<group>"; };
+		F2539B761D0C0B39006BD0FB /* TColorfulTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TColorfulTabBar.h; sourceTree = "<group>"; };
+		F2539B771D0C0B39006BD0FB /* TColorfulTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TColorfulTabBar.m; sourceTree = "<group>"; };
+		F2539B781D0C0B39006BD0FB /* UIColor+STColorInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STColorInit.h"; sourceTree = "<group>"; };
+		F2539B791D0C0B39006BD0FB /* UIColor+STColorInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STColorInit.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515186611CDC243D005F2D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238A803D1FD3ACAFBE238AD8 /* libPods-WETECHCushion.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151867D1CDC243E005F2D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515186881CDC243E005F2D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5151865B1CDC243D005F2D01 = {
+			isa = PBXGroup;
+			children = (
+				5151869D1CDE0EFC005F2D01 /* WTClasses */,
+				515186A01CDE0EFC005F2D01 /* WTLib */,
+				515186661CDC243D005F2D01 /* WETECHCushion */,
+				515186831CDC243E005F2D01 /* WETECHCushionTests */,
+				5151868E1CDC243E005F2D01 /* WETECHCushionUITests */,
+				515186651CDC243D005F2D01 /* Products */,
+				F67942DBB60608AC7A6D197F /* Pods */,
+				B8E58ACAE3D457679082515A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		515186651CDC243D005F2D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515186641CDC243D005F2D01 /* WETECHCushion.app */,
+				515186801CDC243E005F2D01 /* WETECHCushionTests.xctest */,
+				5151868B1CDC243E005F2D01 /* WETECHCushionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515186661CDC243D005F2D01 /* WETECHCushion */ = {
+			isa = PBXGroup;
+			children = (
+				F2539B6E1D0BE982006BD0FB /* Assets.xcassets */,
+				5151866A1CDC243D005F2D01 /* AppDelegate.h */,
+				5151866B1CDC243D005F2D01 /* AppDelegate.m */,
+				5151867B1CDC243D005F2D01 /* Info.plist */,
+				515186671CDC243D005F2D01 /* Supporting Files */,
+				515186C11CDEDB97005F2D01 /* PrefixHeader.pch */,
+			);
+			path = WETECHCushion;
+			sourceTree = "<group>";
+		};
+		515186671CDC243D005F2D01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515186681CDC243D005F2D01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		515186831CDC243E005F2D01 /* WETECHCushionTests */ = {
+			isa = PBXGroup;
+			children = (
+				515186841CDC243E005F2D01 /* WETECHCushionTests.m */,
+				515186861CDC243E005F2D01 /* Info.plist */,
+			);
+			path = WETECHCushionTests;
+			sourceTree = "<group>";
+		};
+		5151868E1CDC243E005F2D01 /* WETECHCushionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5151868F1CDC243E005F2D01 /* WETECHCushionUITests.m */,
+				515186911CDC243E005F2D01 /* Info.plist */,
+			);
+			path = WETECHCushionUITests;
+			sourceTree = "<group>";
+		};
+		5151869D1CDE0EFC005F2D01 /* WTClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5151869E1CDE0EFC005F2D01 /* ViewControllers */,
+				5151869F1CDE0EFC005F2D01 /* Views */,
+			);
+			name = WTClasses;
+			path = WETECHCushion/WTClasses;
+			sourceTree = "<group>";
+		};
+		5151869E1CDE0EFC005F2D01 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				515186B11CDE2286005F2D01 /* WTPanelViewController */,
+				F2539B601D0BA7B8006BD0FB /* WTSettingsViewController */,
+				F2539B731D0C0B39006BD0FB /* TColorfulTabBar */,
+				515186AE1CDE150B005F2D01 /* WTTabBarController.h */,
+				515186AF1CDE150B005F2D01 /* WTTabBarController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5151869F1CDE0EFC005F2D01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		515186A01CDE0EFC005F2D01 /* WTLib */ = {
+			isa = PBXGroup;
+			children = (
+				51C7E6201CE0C3D100FDBE19 /* Category */,
+				51C7E6191CE0334900FDBE19 /* ProgressHUD */,
+				51C7E60F1CE029BB00FDBE19 /* Bluetooth */,
+				515186BF1CDED9F0005F2D01 /* CommonUtils */,
+			);
+			name = WTLib;
+			path = WETECHCushion/WTLib;
+			sourceTree = "<group>";
+		};
+		515186B11CDE2286005F2D01 /* WTPanelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				515186B51CDE2298005F2D01 /* Views */,
+				515186B21CDE2286005F2D01 /* WTPanelViewController.h */,
+				515186B31CDE2286005F2D01 /* WTPanelViewController.m */,
+			);
+			path = WTPanelViewController;
+			sourceTree = "<group>";
+		};
+		515186B51CDE2298005F2D01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				515186B61CDE22F2005F2D01 /* PanelTopView.h */,
+				515186B71CDE22F2005F2D01 /* PanelTopView.m */,
+				515186B91CDE2302005F2D01 /* PanelMiddleView.h */,
+				515186BA1CDE2302005F2D01 /* PanelMiddleView.m */,
+				515186BC1CDE2310005F2D01 /* PanelBottomView.h */,
+				515186BD1CDE2310005F2D01 /* PanelBottomView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		515186BF1CDED9F0005F2D01 /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				515186C01CDEDA06005F2D01 /* MacroDefinition.h */,
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		51C7E60F1CE029BB00FDBE19 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				51C7E6101CE029BB00FDBE19 /* BleDiscovery.h */,
+				51C7E6111CE029BB00FDBE19 /* BleDiscovery.m */,
+				51C7E6121CE029BB00FDBE19 /* BlePassord.h */,
+				51C7E6131CE029BB00FDBE19 /* BlePassord.m */,
+				51C7E6141CE029BB00FDBE19 /* BleService.h */,
+				51C7E6151CE029BB00FDBE19 /* BleService.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		51C7E6191CE0334900FDBE19 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				51C7E61F1CE0343D00FDBE19 /* CRCommon.h */,
+				51C7E61A1CE0334900FDBE19 /* ProgressHUD.bundle */,
+				51C7E61B1CE0334900FDBE19 /* ProgressHUD.h */,
+				51C7E61C1CE0334900FDBE19 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		51C7E6201CE0C3D100FDBE19 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				51C7E6211CE0C3D100FDBE19 /* NSString+hex.h */,
+				51C7E6221CE0C3D100FDBE19 /* NSString+hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B8E58ACAE3D457679082515A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45D61C131C34F4D730483BB /* libPods-WETECHCushion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2539B601D0BA7B8006BD0FB /* WTSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2539B611D0BA7B8006BD0FB /* Views */,
+				F2539B681D0BA7B8006BD0FB /* WTSettingsViewController.h */,
+				F2539B691D0BA7B8006BD0FB /* WTSettingsViewController.m */,
+			);
+			name = WTSettingsViewController;
+			path = WTPanelViewController/WTSettingsViewController;
+			sourceTree = "<group>";
+		};
+		F2539B611D0BA7B8006BD0FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2539B621D0BA7B8006BD0FB /* SettingBottomView.h */,
+				F2539B631D0BA7B8006BD0FB /* SettingBottomView.m */,
+				F2539B641D0BA7B8006BD0FB /* SettingTitleView.h */,
+				F2539B651D0BA7B8006BD0FB /* SettingTitleView.m */,
+				F2539B661D0BA7B8006BD0FB /* SettingTopView.h */,
+				F2539B671D0BA7B8006BD0FB /* SettingTopView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2539B731D0C0B39006BD0FB /* TColorfulTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F2539B741D0C0B39006BD0FB /* TColorfulTabBar+Configuration.h */,
+				F2539B751D0C0B39006BD0FB /* TColorfulTabBar+Configuration.m */,
+				F2539B761D0C0B39006BD0FB /* TColorfulTabBar.h */,
+				F2539B771D0C0B39006BD0FB /* TColorfulTabBar.m */,
+				F2539B781D0C0B39006BD0FB /* UIColor+STColorInit.h */,
+				F2539B791D0C0B39006BD0FB /* UIColor+STColorInit.m */,
+			);
+			path = TColorfulTabBar;
+			sourceTree = "<group>";
+		};
+		F67942DBB60608AC7A6D197F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C73E3DF25FDEA8551F7123B /* Pods-WETECHCushion.debug.xcconfig */,
+				46EF3E79CF363125ED96533D /* Pods-WETECHCushion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515186631CDC243D005F2D01 /* WETECHCushion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515186941CDC243E005F2D01 /* Build configuration list for PBXNativeTarget "WETECHCushion" */;
+			buildPhases = (
+				0F0BEA7323A9A2425331D9C7 /* [CP] Check Pods Manifest.lock */,
+				515186601CDC243D005F2D01 /* Sources */,
+				515186611CDC243D005F2D01 /* Frameworks */,
+				515186621CDC243D005F2D01 /* Resources */,
+				A6F3EFD2FA161E61718C241E /* [CP] Embed Pods Frameworks */,
+				D533EBDA9EA655AAEF2BDDB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WETECHCushion;
+			productName = WETECHCushion;
+			productReference = 515186641CDC243D005F2D01 /* WETECHCushion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5151867F1CDC243E005F2D01 /* WETECHCushionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515186971CDC243E005F2D01 /* Build configuration list for PBXNativeTarget "WETECHCushionTests" */;
+			buildPhases = (
+				5151867C1CDC243E005F2D01 /* Sources */,
+				5151867D1CDC243E005F2D01 /* Frameworks */,
+				5151867E1CDC243E005F2D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515186821CDC243E005F2D01 /* PBXTargetDependency */,
+			);
+			name = WETECHCushionTests;
+			productName = WETECHCushionTests;
+			productReference = 515186801CDC243E005F2D01 /* WETECHCushionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5151868A1CDC243E005F2D01 /* WETECHCushionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5151869A1CDC243E005F2D01 /* Build configuration list for PBXNativeTarget "WETECHCushionUITests" */;
+			buildPhases = (
+				515186871CDC243E005F2D01 /* Sources */,
+				515186881CDC243E005F2D01 /* Frameworks */,
+				515186891CDC243E005F2D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5151868D1CDC243E005F2D01 /* PBXTargetDependency */,
+			);
+			name = WETECHCushionUITests;
+			productName = WETECHCushionUITests;
+			productReference = 5151868B1CDC243E005F2D01 /* WETECHCushionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5151865C1CDC243D005F2D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ___WETECH___;
+				TargetAttributes = {
+					515186631CDC243D005F2D01 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9B7QE7BT82;
+					};
+					5151867F1CDC243E005F2D01 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 515186631CDC243D005F2D01;
+					};
+					5151868A1CDC243E005F2D01 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 515186631CDC243D005F2D01;
+					};
+				};
+			};
+			buildConfigurationList = 5151865F1CDC243D005F2D01 /* Build configuration list for PBXProject "WETECHCushion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5151865B1CDC243D005F2D01;
+			productRefGroup = 515186651CDC243D005F2D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515186631CDC243D005F2D01 /* WETECHCushion */,
+				5151867F1CDC243E005F2D01 /* WETECHCushionTests */,
+				5151868A1CDC243E005F2D01 /* WETECHCushionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515186621CDC243D005F2D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2539B6F1D0BE982006BD0FB /* Assets.xcassets in Resources */,
+				51C7E61D1CE0334900FDBE19 /* ProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151867E1CDC243E005F2D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515186891CDC243E005F2D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0BEA7323A9A2425331D9C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F3EFD2FA161E61718C241E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WETECHCushion/Pods-WETECHCushion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D533EBDA9EA655AAEF2BDDB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WETECHCushion/Pods-WETECHCushion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515186601CDC243D005F2D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2539B6D1D0BA7B8006BD0FB /* WTSettingsViewController.m in Sources */,
+				5151866C1CDC243D005F2D01 /* AppDelegate.m in Sources */,
+				515186BB1CDE2302005F2D01 /* PanelMiddleView.m in Sources */,
+				515186B81CDE22F2005F2D01 /* PanelTopView.m in Sources */,
+				51C7E6161CE029BB00FDBE19 /* BleDiscovery.m in Sources */,
+				515186B01CDE150B005F2D01 /* WTTabBarController.m in Sources */,
+				515186BE1CDE2310005F2D01 /* PanelBottomView.m in Sources */,
+				F2539B7B1D0C0B39006BD0FB /* TColorfulTabBar.m in Sources */,
+				51C7E61E1CE0334900FDBE19 /* ProgressHUD.m in Sources */,
+				F2539B7A1D0C0B39006BD0FB /* TColorfulTabBar+Configuration.m in Sources */,
+				51C7E6171CE029BB00FDBE19 /* BlePassord.m in Sources */,
+				51C7E6181CE029BB00FDBE19 /* BleService.m in Sources */,
+				515186B41CDE2286005F2D01 /* WTPanelViewController.m in Sources */,
+				515186691CDC243D005F2D01 /* main.m in Sources */,
+				51C7E6231CE0C3D100FDBE19 /* NSString+hex.m in Sources */,
+				F2539B6B1D0BA7B8006BD0FB /* SettingTitleView.m in Sources */,
+				F2539B6A1D0BA7B8006BD0FB /* SettingBottomView.m in Sources */,
+				F2539B7C1D0C0B39006BD0FB /* UIColor+STColorInit.m in Sources */,
+				F2539B6C1D0BA7B8006BD0FB /* SettingTopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151867C1CDC243E005F2D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515186851CDC243E005F2D01 /* WETECHCushionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515186871CDC243E005F2D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515186901CDC243E005F2D01 /* WETECHCushionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515186821CDC243E005F2D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515186631CDC243D005F2D01 /* WETECHCushion */;
+			targetProxy = 515186811CDC243E005F2D01 /* PBXContainerItemProxy */;
+		};
+		5151868D1CDC243E005F2D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515186631CDC243D005F2D01 /* WETECHCushion */;
+			targetProxy = 5151868C1CDC243E005F2D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		515186921CDC243E005F2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		515186931CDC243E005F2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515186951CDC243E005F2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C73E3DF25FDEA8551F7123B /* Pods-WETECHCushion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WETECHCushion/PrefixHeader.pch;
+				INFOPLIST_FILE = WETECHCushion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weien.cushiondemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		515186961CDC243E005F2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EF3E79CF363125ED96533D /* Pods-WETECHCushion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WETECHCushion/PrefixHeader.pch;
+				INFOPLIST_FILE = WETECHCushion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weien.cushiondemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		515186981CDC243E005F2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WETECHCushionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weien.cushion.WETECHCushionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WETECHCushion.app/WETECHCushion";
+			};
+			name = Debug;
+		};
+		515186991CDC243E005F2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WETECHCushionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weien.cushion.WETECHCushionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WETECHCushion.app/WETECHCushion";
+			};
+			name = Release;
+		};
+		5151869B1CDC243E005F2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WETECHCushionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weien.cushion.WETECHCushionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WETECHCushion;
+			};
+			name = Debug;
+		};
+		5151869C1CDC243E005F2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WETECHCushionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weien.cushion.WETECHCushionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WETECHCushion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5151865F1CDC243D005F2D01 /* Build configuration list for PBXProject "WETECHCushion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515186921CDC243E005F2D01 /* Debug */,
+				515186931CDC243E005F2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515186941CDC243E005F2D01 /* Build configuration list for PBXNativeTarget "WETECHCushion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515186951CDC243E005F2D01 /* Debug */,
+				515186961CDC243E005F2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515186971CDC243E005F2D01 /* Build configuration list for PBXNativeTarget "WETECHCushionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515186981CDC243E005F2D01 /* Debug */,
+				515186991CDC243E005F2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5151869A1CDC243E005F2D01 /* Build configuration list for PBXNativeTarget "WETECHCushionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151869B1CDC243E005F2D01 /* Debug */,
+				5151869C1CDC243E005F2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5151865C1CDC243D005F2D01 /* Project object */;
+}
