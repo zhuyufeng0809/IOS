@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8149EE951F0B42AE0071926D /* affirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8149EE941F0B42AE0071926D /* affirmViewController.m */; };
+		8149EE981F0BDE490071926D /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8149EE971F0BDE490071926D /* PasswordViewController.m */; };
+		815D88771F0CE6280011E630 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D886F1F0CE6280011E630 /* MMDrawerBarButtonItem.m */; };
+		815D88781F0CE6280011E630 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D88711F0CE6280011E630 /* MMDrawerController.m */; };
+		815D88791F0CE6280011E630 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D88741F0CE6280011E630 /* MMDrawerVisualState.m */; };
+		815D887A1F0CE6280011E630 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 815D88761F0CE6280011E630 /* UIViewController+MMDrawerController.m */; };
+		81AC7EB61F0CAB8600619B9C /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AC7EB51F0CAB8600619B9C /* ExampleViewController.m */; };
+		81AC7EB91F0CC56300619B9C /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AC7EB81F0CC56300619B9C /* EditViewController.m */; };
+		81D4E0021F09F46900AC3B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4E0011F09F46900AC3B3D /* main.m */; };
+		81D4E0051F09F46900AC3B3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4E0041F09F46900AC3B3D /* AppDelegate.m */; };
+		81D4E0081F09F46900AC3B3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4E0071F09F46900AC3B3D /* ViewController.m */; };
+		81D4E00B1F09F46900AC3B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E0091F09F46900AC3B3D /* Main.storyboard */; };
+		81D4E00D1F09F46900AC3B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E00C1F09F46900AC3B3D /* Assets.xcassets */; };
+		81D4E0101F09F46900AC3B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4E00E1F09F46900AC3B3D /* LaunchScreen.storyboard */; };
+		81D4E0191F0A332600AC3B3D /* InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D4E0181F0A332600AC3B3D /* InsetViewController.m */; };
+		81E70B2D1F0D2BF60034BF29 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E70B2C1F0D2BF60034BF29 /* tableViewController.m */; };
+		DC0306CA3EF179BBB7CD51A3 /* libPods-MailMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BCBB826963C86A16FD713E /* libPods-MailMe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8149EE931F0B42AE0071926D /* affirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = affirmViewController.h; sourceTree = "<group>"; };
+		8149EE941F0B42AE0071926D /* affirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = affirmViewController.m; sourceTree = "<group>"; };
+		8149EE961F0BDE490071926D /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		8149EE971F0BDE490071926D /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		815D886E1F0CE6280011E630 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		815D886F1F0CE6280011E630 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		815D88701F0CE6280011E630 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		815D88711F0CE6280011E630 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		815D88721F0CE6280011E630 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		815D88731F0CE6280011E630 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		815D88741F0CE6280011E630 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		815D88751F0CE6280011E630 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		815D88761F0CE6280011E630 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		81AC7EB41F0CAB8600619B9C /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		81AC7EB51F0CAB8600619B9C /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		81AC7EB71F0CC56300619B9C /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		81AC7EB81F0CC56300619B9C /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		81D4DFFD1F09F46900AC3B3D /* MailMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4E0011F09F46900AC3B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81D4E0031F09F46900AC3B3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81D4E0041F09F46900AC3B3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81D4E0061F09F46900AC3B3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81D4E0071F09F46900AC3B3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81D4E00A1F09F46900AC3B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81D4E00C1F09F46900AC3B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D4E00F1F09F46900AC3B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81D4E0111F09F46900AC3B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D4E0171F0A332600AC3B3D /* InsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetViewController.h; sourceTree = "<group>"; };
+		81D4E0181F0A332600AC3B3D /* InsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetViewController.m; sourceTree = "<group>"; };
+		81E70B2B1F0D2BF60034BF29 /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		81E70B2C1F0D2BF60034BF29 /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
+		9DFA0CFC48E304A34A679724 /* Pods-MailMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-MailMe/Pods-MailMe.release.xcconfig"; sourceTree = "<group>"; };
+		CEB7050009DD1B1BCCA8229B /* Pods-MailMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MailMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MailMe/Pods-MailMe.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BCBB826963C86A16FD713E /* libPods-MailMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MailMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D4DFFA1F09F46900AC3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0306CA3EF179BBB7CD51A3 /* libPods-MailMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81D4DFF41F09F46900AC3B3D = {
+			isa = PBXGroup;
+			children = (
+				81D4DFFF1F09F46900AC3B3D /* MailMe */,
+				81D4DFFE1F09F46900AC3B3D /* Products */,
+				8869FE2493CF18D75238F241 /* Pods */,
+				E222D356BF87CDD2DC9D4A74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81D4DFFE1F09F46900AC3B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D4DFFD1F09F46900AC3B3D /* MailMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D4DFFF1F09F46900AC3B3D /* MailMe */ = {
+			isa = PBXGroup;
+			children = (
+				81D4E0031F09F46900AC3B3D /* AppDelegate.h */,
+				81D4E0041F09F46900AC3B3D /* AppDelegate.m */,
+				81D4E0061F09F46900AC3B3D /* ViewController.h */,
+				81D4E0071F09F46900AC3B3D /* ViewController.m */,
+				81D4E0171F0A332600AC3B3D /* InsetViewController.h */,
+				81D4E0181F0A332600AC3B3D /* InsetViewController.m */,
+				8149EE931F0B42AE0071926D /* affirmViewController.h */,
+				8149EE941F0B42AE0071926D /* affirmViewController.m */,
+				8149EE961F0BDE490071926D /* PasswordViewController.h */,
+				8149EE971F0BDE490071926D /* PasswordViewController.m */,
+				81AC7EB41F0CAB8600619B9C /* ExampleViewController.h */,
+				81AC7EB51F0CAB8600619B9C /* ExampleViewController.m */,
+				81AC7EB71F0CC56300619B9C /* EditViewController.h */,
+				81AC7EB81F0CC56300619B9C /* EditViewController.m */,
+				81E70B2B1F0D2BF60034BF29 /* tableViewController.h */,
+				81E70B2C1F0D2BF60034BF29 /* tableViewController.m */,
+				815D886E1F0CE6280011E630 /* MMDrawerBarButtonItem.h */,
+				815D886F1F0CE6280011E630 /* MMDrawerBarButtonItem.m */,
+				815D88701F0CE6280011E630 /* MMDrawerController.h */,
+				815D88711F0CE6280011E630 /* MMDrawerController.m */,
+				815D88721F0CE6280011E630 /* MMDrawerController+Subclass.h */,
+				815D88731F0CE6280011E630 /* MMDrawerVisualState.h */,
+				815D88741F0CE6280011E630 /* MMDrawerVisualState.m */,
+				815D88751F0CE6280011E630 /* UIViewController+MMDrawerController.h */,
+				815D88761F0CE6280011E630 /* UIViewController+MMDrawerController.m */,
+				81D4E0091F09F46900AC3B3D /* Main.storyboard */,
+				81D4E00C1F09F46900AC3B3D /* Assets.xcassets */,
+				81D4E00E1F09F46900AC3B3D /* LaunchScreen.storyboard */,
+				81D4E0111F09F46900AC3B3D /* Info.plist */,
+				81D4E0001F09F46900AC3B3D /* Supporting Files */,
+			);
+			path = MailMe;
+			sourceTree = "<group>";
+		};
+		81D4E0001F09F46900AC3B3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D4E0011F09F46900AC3B3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8869FE2493CF18D75238F241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB7050009DD1B1BCCA8229B /* Pods-MailMe.debug.xcconfig */,
+				9DFA0CFC48E304A34A679724 /* Pods-MailMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E222D356BF87CDD2DC9D4A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0BCBB826963C86A16FD713E /* libPods-MailMe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D4DFFC1F09F46900AC3B3D /* MailMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D4E0141F09F46900AC3B3D /* Build configuration list for PBXNativeTarget "MailMe" */;
+			buildPhases = (
+				95E1283767BA87DD89036BBF /* [CP] Check Pods Manifest.lock */,
+				81D4DFF91F09F46900AC3B3D /* Sources */,
+				81D4DFFA1F09F46900AC3B3D /* Frameworks */,
+				81D4DFFB1F09F46900AC3B3D /* Resources */,
+				BBA4F33A7B9C5CB0FE8E7BB5 /* [CP] Embed Pods Frameworks */,
+				66C306D2171AFED1C6F4FAB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailMe;
+			productName = MailMe;
+			productReference = 81D4DFFD1F09F46900AC3B3D /* MailMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D4DFF51F09F46900AC3B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱育锋";
+				TargetAttributes = {
+					81D4DFFC1F09F46900AC3B3D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 81D4DFF81F09F46900AC3B3D /* Build configuration list for PBXProject "MailMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D4DFF41F09F46900AC3B3D;
+			productRefGroup = 81D4DFFE1F09F46900AC3B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D4DFFC1F09F46900AC3B3D /* MailMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D4DFFB1F09F46900AC3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4E0101F09F46900AC3B3D /* LaunchScreen.storyboard in Resources */,
+				81D4E00D1F09F46900AC3B3D /* Assets.xcassets in Resources */,
+				81D4E00B1F09F46900AC3B3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66C306D2171AFED1C6F4FAB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailMe/Pods-MailMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E1283767BA87DD89036BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA4F33A7B9C5CB0FE8E7BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MailMe/Pods-MailMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D4DFF91F09F46900AC3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E70B2D1F0D2BF60034BF29 /* tableViewController.m in Sources */,
+				81D4E0081F09F46900AC3B3D /* ViewController.m in Sources */,
+				81D4E0051F09F46900AC3B3D /* AppDelegate.m in Sources */,
+				815D88791F0CE6280011E630 /* MMDrawerVisualState.m in Sources */,
+				815D887A1F0CE6280011E630 /* UIViewController+MMDrawerController.m in Sources */,
+				81D4E0191F0A332600AC3B3D /* InsetViewController.m in Sources */,
+				8149EE951F0B42AE0071926D /* affirmViewController.m in Sources */,
+				815D88771F0CE6280011E630 /* MMDrawerBarButtonItem.m in Sources */,
+				81AC7EB91F0CC56300619B9C /* EditViewController.m in Sources */,
+				815D88781F0CE6280011E630 /* MMDrawerController.m in Sources */,
+				81D4E0021F09F46900AC3B3D /* main.m in Sources */,
+				81AC7EB61F0CAB8600619B9C /* ExampleViewController.m in Sources */,
+				8149EE981F0BDE490071926D /* PasswordViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81D4E0091F09F46900AC3B3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4E00A1F09F46900AC3B3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81D4E00E1F09F46900AC3B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4E00F1F09F46900AC3B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D4E0121F09F46900AC3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81D4E0131F09F46900AC3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D4E0151F09F46900AC3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB7050009DD1B1BCCA8229B /* Pods-MailMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MailMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smgcompany.MailMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81D4E0161F09F46900AC3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFA0CFC48E304A34A679724 /* Pods-MailMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MailMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smgcompany.MailMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D4DFF81F09F46900AC3B3D /* Build configuration list for PBXProject "MailMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D4E0121F09F46900AC3B3D /* Debug */,
+				81D4E0131F09F46900AC3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D4E0141F09F46900AC3B3D /* Build configuration list for PBXNativeTarget "MailMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D4E0151F09F46900AC3B3D /* Debug */,
+				81D4E0161F09F46900AC3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D4DFF51F09F46900AC3B3D /* Project object */;
+}
