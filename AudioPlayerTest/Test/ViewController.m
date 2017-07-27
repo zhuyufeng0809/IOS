@@ -94,7 +94,7 @@
     time = [[UILabel alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2, self.view.frame.size.height/5*4, 100, 50)];
     time.text = @"时间";
     [self.view addSubview:time];
-    
+    //
     _timer = [NSTimer scheduledTimerWithTimeInterval:1/60 target:self selector:@selector(updateProgress) userInfo:nil repeats:YES];
     _timer.fireDate = [NSDate distantPast];
     
