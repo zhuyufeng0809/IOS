@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190369B2FDC3974DC8FAE288 /* libPods-noise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D001C121D4DDE6AEA82BC8A9 /* libPods-noise.a */; };
+		814DBEA21F3578DC00CEE235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEA11F3578DC00CEE235 /* main.m */; };
+		814DBEA51F3578DC00CEE235 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEA41F3578DC00CEE235 /* AppDelegate.m */; };
+		814DBEA81F3578DC00CEE235 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEA71F3578DC00CEE235 /* ViewController.m */; };
+		814DBEAB1F3578DC00CEE235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814DBEA91F3578DC00CEE235 /* Main.storyboard */; };
+		814DBEAD1F3578DC00CEE235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814DBEAC1F3578DC00CEE235 /* Assets.xcassets */; };
+		814DBEB01F3578DC00CEE235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814DBEAE1F3578DC00CEE235 /* LaunchScreen.storyboard */; };
+		814DBEBA1F3578E900CEE235 /* KKNoiseRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEB91F3578E900CEE235 /* KKNoiseRecognizer.m */; };
+		814DBEC01F35795100CEE235 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814DBEBF1F35795100CEE235 /* AVFoundation.framework */; };
+		814DBEC31F35808400CEE235 /* StandardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEC21F35808400CEE235 /* StandardViewController.m */; };
+		814DBEC61F35809900CEE235 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEC51F35809900CEE235 /* MoreViewController.m */; };
+		814DBEC91F3580AE00CEE235 /* WaveformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 814DBEC81F3580AE00CEE235 /* WaveformTableViewController.m */; };
+		81A496EA1F4C3652008848ED /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A496E71F4C3652008848ED /* libmp3lame.a */; };
+		81A496EB1F4C3652008848ED /* XHSoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A496E91F4C3652008848ED /* XHSoundRecorder.m */; };
+		81A496EE1F4C36A7008848ED /* XHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A496ED1F4C36A7008848ED /* XHTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		773ED65811ECFD5B98364E7C /* Pods-noise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noise.release.xcconfig"; path = "Pods/Target Support Files/Pods-noise/Pods-noise.release.xcconfig"; sourceTree = "<group>"; };
+		814DBE9D1F3578DC00CEE235 /* noise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814DBEA11F3578DC00CEE235 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		814DBEA31F3578DC00CEE235 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		814DBEA41F3578DC00CEE235 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		814DBEA61F3578DC00CEE235 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		814DBEA71F3578DC00CEE235 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		814DBEAA1F3578DC00CEE235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		814DBEAC1F3578DC00CEE235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814DBEAF1F3578DC00CEE235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		814DBEB11F3578DC00CEE235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814DBEB81F3578E900CEE235 /* KKNoiseRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKNoiseRecognizer.h; sourceTree = "<group>"; };
+		814DBEB91F3578E900CEE235 /* KKNoiseRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNoiseRecognizer.m; sourceTree = "<group>"; };
+		814DBEBF1F35795100CEE235 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		814DBEC11F35808400CEE235 /* StandardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardViewController.h; sourceTree = "<group>"; };
+		814DBEC21F35808400CEE235 /* StandardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardViewController.m; sourceTree = "<group>"; };
+		814DBEC41F35809900CEE235 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		814DBEC51F35809900CEE235 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		814DBEC71F3580AE00CEE235 /* WaveformTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveformTableViewController.h; sourceTree = "<group>"; };
+		814DBEC81F3580AE00CEE235 /* WaveformTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveformTableViewController.m; sourceTree = "<group>"; };
+		81A496E61F4C3652008848ED /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		81A496E71F4C3652008848ED /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		81A496E81F4C3652008848ED /* XHSoundRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHSoundRecorder.h; sourceTree = "<group>"; };
+		81A496E91F4C3652008848ED /* XHSoundRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSoundRecorder.m; sourceTree = "<group>"; };
+		81A496EC1F4C36A7008848ED /* XHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTableViewController.h; sourceTree = "<group>"; };
+		81A496ED1F4C36A7008848ED /* XHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTableViewController.m; sourceTree = "<group>"; };
+		D001C121D4DDE6AEA82BC8A9 /* libPods-noise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-noise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D92A20B7F36B84739BF02D /* Pods-noise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-noise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-noise/Pods-noise.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814DBE9A1F3578DC00CEE235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A496EA1F4C3652008848ED /* libmp3lame.a in Frameworks */,
+				814DBEC01F35795100CEE235 /* AVFoundation.framework in Frameworks */,
+				190369B2FDC3974DC8FAE288 /* libPods-noise.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814DBE941F3578DC00CEE235 = {
+			isa = PBXGroup;
+			children = (
+				814DBEBF1F35795100CEE235 /* AVFoundation.framework */,
+				81A496E51F4C3652008848ED /* XHSoundRecorder */,
+				814DBEB71F3578E900CEE235 /* KKNoiseRecognizer */,
+				814DBE9F1F3578DC00CEE235 /* noise */,
+				814DBE9E1F3578DC00CEE235 /* Products */,
+				917C18595D5474147A3C161F /* Pods */,
+				C8FED96C350210D5200AE6F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		814DBE9E1F3578DC00CEE235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814DBE9D1F3578DC00CEE235 /* noise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814DBE9F1F3578DC00CEE235 /* noise */ = {
+			isa = PBXGroup;
+			children = (
+				814DBEA31F3578DC00CEE235 /* AppDelegate.h */,
+				814DBEA41F3578DC00CEE235 /* AppDelegate.m */,
+				814DBEA61F3578DC00CEE235 /* ViewController.h */,
+				814DBEA71F3578DC00CEE235 /* ViewController.m */,
+				814DBEC11F35808400CEE235 /* StandardViewController.h */,
+				814DBEC21F35808400CEE235 /* StandardViewController.m */,
+				814DBEC41F35809900CEE235 /* MoreViewController.h */,
+				814DBEC51F35809900CEE235 /* MoreViewController.m */,
+				814DBEC71F3580AE00CEE235 /* WaveformTableViewController.h */,
+				814DBEC81F3580AE00CEE235 /* WaveformTableViewController.m */,
+				81A496EC1F4C36A7008848ED /* XHTableViewController.h */,
+				81A496ED1F4C36A7008848ED /* XHTableViewController.m */,
+				814DBEA91F3578DC00CEE235 /* Main.storyboard */,
+				814DBEAC1F3578DC00CEE235 /* Assets.xcassets */,
+				814DBEAE1F3578DC00CEE235 /* LaunchScreen.storyboard */,
+				814DBEB11F3578DC00CEE235 /* Info.plist */,
+				814DBEA01F3578DC00CEE235 /* Supporting Files */,
+			);
+			path = noise;
+			sourceTree = "<group>";
+		};
+		814DBEA01F3578DC00CEE235 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				814DBEA11F3578DC00CEE235 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		814DBEB71F3578E900CEE235 /* KKNoiseRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				814DBEB81F3578E900CEE235 /* KKNoiseRecognizer.h */,
+				814DBEB91F3578E900CEE235 /* KKNoiseRecognizer.m */,
+			);
+			path = KKNoiseRecognizer;
+			sourceTree = "<group>";
+		};
+		81A496E51F4C3652008848ED /* XHSoundRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				81A496E61F4C3652008848ED /* lame.h */,
+				81A496E71F4C3652008848ED /* libmp3lame.a */,
+				81A496E81F4C3652008848ED /* XHSoundRecorder.h */,
+				81A496E91F4C3652008848ED /* XHSoundRecorder.m */,
+			);
+			path = XHSoundRecorder;
+			sourceTree = "<group>";
+		};
+		917C18595D5474147A3C161F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D92A20B7F36B84739BF02D /* Pods-noise.debug.xcconfig */,
+				773ED65811ECFD5B98364E7C /* Pods-noise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8FED96C350210D5200AE6F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D001C121D4DDE6AEA82BC8A9 /* libPods-noise.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814DBE9C1F3578DC00CEE235 /* noise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814DBEB41F3578DC00CEE235 /* Build configuration list for PBXNativeTarget "noise" */;
+			buildPhases = (
+				D807C80E3CF813B5CC101687 /* [CP] Check Pods Manifest.lock */,
+				814DBE991F3578DC00CEE235 /* Sources */,
+				814DBE9A1F3578DC00CEE235 /* Frameworks */,
+				814DBE9B1F3578DC00CEE235 /* Resources */,
+				AE75775AB25D0C04741BFC14 /* [CP] Embed Pods Frameworks */,
+				0A962B81EB2ACE2D4A1BE722 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = noise;
+			productName = noise;
+			productReference = 814DBE9D1F3578DC00CEE235 /* noise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814DBE951F3578DC00CEE235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "朱育锋";
+				TargetAttributes = {
+					814DBE9C1F3578DC00CEE235 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 814DBE981F3578DC00CEE235 /* Build configuration list for PBXProject "noise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 814DBE941F3578DC00CEE235;
+			productRefGroup = 814DBE9E1F3578DC00CEE235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814DBE9C1F3578DC00CEE235 /* noise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814DBE9B1F3578DC00CEE235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DBEB01F3578DC00CEE235 /* LaunchScreen.storyboard in Resources */,
+				814DBEAD1F3578DC00CEE235 /* Assets.xcassets in Resources */,
+				814DBEAB1F3578DC00CEE235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A962B81EB2ACE2D4A1BE722 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-noise/Pods-noise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE75775AB25D0C04741BFC14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-noise/Pods-noise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D807C80E3CF813B5CC101687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814DBE991F3578DC00CEE235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814DBEA81F3578DC00CEE235 /* ViewController.m in Sources */,
+				814DBEA51F3578DC00CEE235 /* AppDelegate.m in Sources */,
+				814DBEC31F35808400CEE235 /* StandardViewController.m in Sources */,
+				81A496EB1F4C3652008848ED /* XHSoundRecorder.m in Sources */,
+				814DBEBA1F3578E900CEE235 /* KKNoiseRecognizer.m in Sources */,
+				814DBEC61F35809900CEE235 /* MoreViewController.m in Sources */,
+				814DBEC91F3580AE00CEE235 /* WaveformTableViewController.m in Sources */,
+				814DBEA21F3578DC00CEE235 /* main.m in Sources */,
+				81A496EE1F4C36A7008848ED /* XHTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		814DBEA91F3578DC00CEE235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DBEAA1F3578DC00CEE235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		814DBEAE1F3578DC00CEE235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814DBEAF1F3578DC00CEE235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		814DBEB21F3578DC00CEE235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		814DBEB31F3578DC00CEE235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814DBEB51F3578DC00CEE235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D92A20B7F36B84739BF02D /* Pods-noise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shanzhe Lei (DBMR3HJTPH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shanzhe Lei (DBMR3HJTPH)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = noise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHSoundRecorder",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShinyMobile.NoiseDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ef9c8cc8-fb8b-4526-a221-316a1294709f";
+			};
+			name = Debug;
+		};
+		814DBEB61F3578DC00CEE235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773ED65811ECFD5B98364E7C /* Pods-noise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shanzhe Lei (DBMR3HJTPH)";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = noise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XHSoundRecorder",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShinyMobile.NoiseDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ef9c8cc8-fb8b-4526-a221-316a1294709f";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814DBE981F3578DC00CEE235 /* Build configuration list for PBXProject "noise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DBEB21F3578DC00CEE235 /* Debug */,
+				814DBEB31F3578DC00CEE235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814DBEB41F3578DC00CEE235 /* Build configuration list for PBXNativeTarget "noise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814DBEB51F3578DC00CEE235 /* Debug */,
+				814DBEB61F3578DC00CEE235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814DBE951F3578DC00CEE235 /* Project object */;
+}

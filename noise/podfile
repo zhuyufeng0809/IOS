@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target'noise'do
+pod'Waver', '~> 0.3.0'
+end
+
